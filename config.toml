@@ -1,3 +1,121 @@
-baseURL = "http://example.org/"
+baseURL = "https://thoughtnirvana.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "ThoughtNirvana - React, Angular, Python, Ruby, Java, .net core development"
+theme = "airspace-hugo"
+
+
+[menu]
+
+  [[menu.header]]
+    weight = 2
+    name = "Services"
+    url = "/services"
+  [[menu.header]]
+    weight = 3
+    name = "Work"
+    url = "/work"
+  [[menu.header]]
+    weight = 4
+    name = "Blog"
+    url = "/blog"
+  [[menu.header]]
+    weight = 5
+    name = "Contact Us"
+    url = "/contact"
+
+  [[menu.footer]]
+    weight = 1
+    name = "About us"
+    url = "#"
+  [[menu.footer]]
+    weight = 2
+    name = "Contact Us"
+    url = "#"
+  [[menu.footer]]
+    weight = 3
+    name = "How it works"
+    url = "#"
+  [[menu.footer]]
+    weight = 4
+    name = "Blog"
+    url = "#"
+  [[menu.footer]]
+    weight = 5
+    name = "Terms"
+    url = "#"
+
+# The site's parameters
+[params]
+
+  # If you want to remove the copyright text you need a Themefisher license.
+  # This license is offered with a 50% discount for all Hugo users.
+  # For information see https://github.com/gohugoio/hugoThemes/issues/260
+
+  dateFormat = "6 January 2006"
+
+  home = "Home"
+
+  [params.slider]
+    enable = true
+    title = "We create magic on and off the web"
+    subtitle = "Software by the humans, for the humans"
+
+  [params.wrapper]
+    enable = true
+    title = "About Us"
+    italic = "We are a different kind of development shop. Software development is more than a business to us."
+    paragraph = "We have worked on web and non web based softwares, big data systems, embedded video devices, plethora of languages and platforms. \
+    But most importantly, we have been shipping sofwarre of all size, writinng lots of code, and saving tons of money for the clients. \
+    We understand the pulse of software development, and based on our development skills and experiece, we work hard to provide you with a pleasant experience and on-time delivery."
+
+  [params.blog]
+    enable = true
+    title = "Get The Latest On What We're doing"
+    subtitle = "Catch up with us, anytime and anywhere"
+
+  [params.feature]
+    enable = true
+    title = "Our Ethos"
+    content = '''
+#### Not a penny more, not a penny less
+
+We build software for your needs, which is often different from what you initially want. We work with you to transform "want" into "need" into "working software".
+
+#### Honesty and integrity matters
+
+We appreciate you chose to work with us - we work very hard to ensure quality, honesty, transparency and clarity.
+
+#### Talk is cheap, show me the code
+
+We assure that measurable progress is being delivered to you starting day 1.
+
+#### The only constant is change
+
+We know and respect this and work with you to let the software evolve.
+'''
+    [params.feature.button]
+      caption = "Contact Us"
+      url = "#"
+
+  [params.call]
+    enable = true
+    title = "We design delightful digital experiences."
+    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+
+  [params.contact]
+    enable = true
+    title = "Drop us a note"
+    subtitle = "Don’t just take our word for it. Check out some of our latest work."
+    [params.contact.form]
+      name = "Your name"
+      email = "Your email"
+      subject = "Your subject"
+      message = "Your message"
+      button = "Send message"
+    [params.contact.box]
+      title = "Stop by for a visit"
+      address = "North Main Street, Brooklyn Australia"
+      email = "Email: contact@mail.com"
+      phone = "Phone: +88 01672 506 744"
+    [params.contact.gmaps]
+      title = "We Also Count in Google Maps"
