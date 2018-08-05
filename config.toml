@@ -99,8 +99,12 @@ We know and respect this and work with you to let the software evolve.
 
   [params.call]
     enable = true
-    title = "We design delightful digital experiences."
-    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+    title = "Let's build something together"
+    paragraph = "We have consistently delivered all kinds of projects for clients of various sizes. Let's get talking and build something beautiful."
+    [params.call.button]
+      text = "Contact Us"
+      url = "#"
+
 
   [params.contact]
     enable = true
