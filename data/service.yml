@@ -1,0 +1,45 @@
+enable: true
+title: Our Services
+subtitle: >
+  We build web, non-web and mobile applications, from internal tools to world facing intefaces, for a small startup to fortune 50 companies.
+content:
+
+  - icon: ion-social-javascript
+    name: Javascript
+    text: >
+      React, Angular, vanilla JS and much more. We also have extensive experience with backend javascript.
+
+  - icon: ion-social-python
+    name: Python
+    text: >
+      Django/Flask make web development a breeze. And then there is rich scientific and data science ecosystem.
+
+  - icon: ion-compass
+    name: UI and UX
+    text: >
+      We do most of our design in-house. We also have trusted partners who we engage from time to time for niche needs.
+
+  - icon: ion-iphone
+    name: Mobile Development
+    text: >
+      Andorid, iOS or PWA or all - you pick a choice, we do it for you. We work with Java, Objective C and Swift, and React Native is looking promising.
+
+  - icon: ion-leaf
+    name: Development
+    text: >
+      We bring with us an experience of more than a decade when it comes to software design & development.  
+
+  - icon: ion-image
+    name: Architecture
+    text: >
+      The bigger picture is as important, if not more important that the details. We bring with us more than a decade of software development and design experience.
+
+  - icon: ion-ios-flask
+    name: Process
+    text: >
+      Need help with agile development, continous deployment pipeline, code review, release management? We have you covered.
+
+  - icon: ion-planet
+    name: Consulting
+    text: >
+      Any business or technology consulting needs? Talk to us and we will most likely be able to help.
