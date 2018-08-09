@@ -1,4 +1,4 @@
 +++
-title = "ABOUT US"
+title = "WHO WE ARE"
 id = "about"
 +++
