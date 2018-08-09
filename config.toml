@@ -17,7 +17,7 @@ theme = "airspace-hugo"
   [[menu.header]]
     weight = 4
     name = "Blog"
-    url = "http://blog.thoughtnirvana.com"
+    url = "/blog"
   [[menu.header]]
     weight = 5
     name = "Contact Us"
@@ -38,7 +38,7 @@ theme = "airspace-hugo"
   [[menu.footer]]
     weight = 4
     name = "Blog"
-    url = "http://blog.thoughtnirvana.com"
+    url = "/blog"
 
 # The site's parameters
 [params]
