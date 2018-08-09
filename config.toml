@@ -123,3 +123,9 @@ We know and respect this and work with you to let the software evolve.
       phone = "+91 80 4111 9519"
     [params.contact.gmaps]
       title = "We Also Count in Google Maps"
+    [[params.contact.social]]
+      url = "https://www.linkedin.com/company/thoughtnirvana/"
+      icon = 'fa-linkedin-square'
+    [[params.contact.social]]
+      url = "https://github.com/thoughtnirvana"
+      icon = 'fa-github-square'
