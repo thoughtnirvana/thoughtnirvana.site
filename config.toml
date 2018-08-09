@@ -34,15 +34,11 @@ theme = "airspace-hugo"
   [[menu.footer]]
     weight = 3
     name = "How it works"
-    url = "#"
+    url = "/how"
   [[menu.footer]]
     weight = 4
     name = "Blog"
-    url = "#"
-  [[menu.footer]]
-    weight = 5
-    name = "Terms"
-    url = "#"
+    url = "http://blog.thoughtnirvana.com"
 
 # The site's parameters
 [params]
@@ -122,7 +118,7 @@ We know and respect this and work with you to let the software evolve.
       email = "enquiry@thoughtnirvana.com"
       phone = "+91 80 4111 9519"
     [params.contact.gmaps]
-      title = "We Also Count in Google Maps"
+      title = "Let Google help you find us"
     [[params.contact.social]]
       url = "https://www.linkedin.com/company/thoughtnirvana/"
       icon = 'fa-linkedin-square'
