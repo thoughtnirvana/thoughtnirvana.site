@@ -1,4 +1,4 @@
 +++
-title = "WHAT DRIVES US"
+title = "THE DNA OF THOUGHTNIRVANA"
 id = "ethos"
 +++
