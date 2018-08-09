@@ -1,0 +1,50 @@
+enable: true
+title: How We Do Things
+content:
+
+  - icon: fas fa-space-shuttle
+    heading: Technology
+    subheading: The engine of your car
+    body: >
+      Technology is a resource, and we use whatever gets you to your destination faster.
+      Technology is just the engine of the car you are driving to reach your destination - 
+      it does play a part but the more important part is getting to the destination at time. 
+      We have extensive experience in React, Angular, Ruby/Rails/Sinatra, Python/Django/Flask, Java, .net core, C, C++, and various other technologies.
+      We work with you to figure out the right tool for the job.
+
+  - icon: fas fa-comments
+    heading: Discussion
+    subheading: Communication is king
+    body: >
+      We sit down with you, we listen to you, we work with you to determine a common vocabulary and set of requirements that we are going to deal with.
+      We work closely with you to make sure we are on the same page, so as to avoid any long term consequences.
+      We are there for you on all communication channels - jira, skype, mail, IRC, phone.
+
+  - icon: fas fa-laptop-code
+    heading: Development
+    subheading: Progress goes boink
+    body: >
+      This is where the we convert dreams & desires to reality.
+      A big part of the process is spent here, and a lot of to & fro happens at this stage.
+      We realize change is a reality of life, and we whole heartedly embrace it.
+      Our software development skills, coupled with the effective communication, ensure that the work is always on track.
+
+  - icon: fas fa-shipping-fast
+    heading: Deployment
+    subheading: It's showtime
+    body: >
+      We prepare an extensive, cohesive plan to realize an impeccable launch.
+      If things go wrong, we are prepared - we have ample firefighting experience with us to tackle any untoward incidents.
+      That said, things generally don't go wrong owing to our eye for the details, and extensive testing through which the application passes before launch.
+
+  - icon: fas fa-life-ring
+    heading: Support
+    subheading: The teenager problem
+    body: >
+      All was well, but things have changed, and you need us to take care of your berserk teenage kid.
+      Fear not - been there, done it all.
+      Evolving systems are a fact of life, and we are well equipped to handle them.
+
+
+
+
