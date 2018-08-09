@@ -1,0 +1,29 @@
+{{ partial "global-header.html" . }}
+
+<!-- How Start -->
+<section id="how">
+  <div class="container">
+    
+    <!-- Intro -->
+    <div class="row">
+      <div class="col-md-offset-5 section-title">
+        <h2>{{ .Site.Data.how.title }}</h2>
+        <p>{{ .Site.Data.how.subtitle }}</p>
+      </div>
+    </div>
+
+    <!-- Content -->
+    {{ range .Site.Data.how.content }}
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8">
+        <div class="how-item">
+          
+          <h3>{{ .heading }}<i class="{{ .icon }}"></i></h3>
+          <h4>{{ .subheading }}</h4>
+          <p>{{ .body | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
