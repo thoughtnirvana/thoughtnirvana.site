@@ -7,15 +7,15 @@
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <form>
+          <form name="contact" netlify>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="{{ .form.name }}">
+              <input name="name" type="text" class="form-control" placeholder="{{ .form.name }}">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="{{ .form.email }}">
+              <input name="email" type="text" class="form-control" placeholder="{{ .form.email }}">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="{{ .form.subject }}">
+              <input name="subject" type="text" class="form-control" placeholder="{{ .form.subject }}">
             </div>
           </form>
         </div>
@@ -24,7 +24,7 @@
         <div class="block">
           <form>
             <div class="form-group-2">
-              <textarea class="form-control" rows="3" placeholder="{{ .form.message }}"></textarea>
+              <textarea name="message" class="form-control" rows="3" placeholder="{{ .form.message }}"></textarea>
             </div>
             <button class="btn btn-default" type="submit">{{ .form.button }}</button>
           </form>
