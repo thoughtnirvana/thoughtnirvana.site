@@ -2,17 +2,17 @@ enable: true
 title: How We Do Things
 content:
 
-  - icon: fas fa-space-shuttle
+  - icon: fa fa-space-shuttle
     heading: Technology
     subheading: The engine of your car
     body: >
-      Technology is a resource, and we use whatever gets you to your destination faster.
+      Technology is a resource, and we use whatever gets you to your destination fater.
       Technology is just the engine of the car you are driving to reach your destination - 
       it does play a part but the more important part is getting to the destination at time. 
       We have extensive experience in React, Angular, Ruby/Rails/Sinatra, Python/Django/Flask, Java, .net core, C, C++, and various other technologies.
       We work with you to figure out the right tool for the job.
 
-  - icon: fas fa-comments
+  - icon: fa fa-comments
     heading: Discussion
     subheading: Communication is king
     body: >
@@ -20,7 +20,7 @@ content:
       We work closely with you to make sure we are on the same page, so as to avoid any long term consequences.
       We are there for you on all communication channels - jira, skype, mail, IRC, phone.
 
-  - icon: fas fa-laptop-code
+  - icon: fa fa-code
     heading: Development
     subheading: Progress goes boink
     body: >
@@ -29,7 +29,7 @@ content:
       We realize change is a reality of life, and we whole heartedly embrace it.
       Our software development skills, coupled with the effective communication, ensure that the work is always on track.
 
-  - icon: fas fa-shipping-fast
+  - icon: fa fa-cloud
     heading: Deployment
     subheading: It's showtime
     body: >
@@ -37,7 +37,7 @@ content:
       If things go wrong, we are prepared - we have ample firefighting experience with us to tackle any untoward incidents.
       That said, things generally don't go wrong owing to our eye for the details, and extensive testing through which the application passes before launch.
 
-  - icon: fas fa-life-ring
+  - icon: fa fa-life-ring
     heading: Support
     subheading: The teenager problem
     body: >
