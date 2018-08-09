@@ -1,0 +1,72 @@
+{{ partial "global-header.html" . }}
+
+<!-- contact form start -->
+{{ with .Site.Params.contact }}
+<section id="contact-form">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="{{ .form.name }}">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="{{ .form.email }}">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="{{ .form.subject }}">
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <form>
+            <div class="form-group-2">
+              <textarea class="form-control" rows="3" placeholder="{{ .form.message }}"></textarea>
+            </div>
+            <button class="btn btn-default" type="submit">{{ .form.button }}</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="contact-box" class="row">
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+
+          <h2>{{ .box.title }}</h2>
+          <ul class="address-block">
+            <li>
+              <i class="fa fa-map-marker"></i>{{ .box.address }}
+            </li>
+            <li>
+              <i class="fa fa-envelope-o"></i>{{ .box.email }}
+            </li>
+            <li>
+              <i class="fa fa-phone"></i>{{ .box.phone }}
+            </li>
+          </ul>
+          <ul class="social-icons">
+          {{ range .social }}  
+            <li>
+              <a href="{{ .url }}"><i class="fa {{ .icon }}"></i></a>
+            </li>
+          {{ end }}
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        {{ with .gmaps}}
+        <div class="block">
+          <h2>{{ .title }}</h2>
+            <div class="google-map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.915004861394!2d77.63519081489628!3d12.97728791826446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16a4643b7ff5%3A0x50c272abe50f79fc!2s811%2C+10th+A+Main+Rd%2C+Stage+2%2C+Hoysala+Nagar%2C+Indiranagar%2C+Bengaluru%2C+Karnataka+560038!5e0!3m2!1sen!2sin!4v1533798766214" width="555" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
