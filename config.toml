@@ -2,6 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = "ThoughtNirvana - React, Angular, Python, Ruby, Java, .net core development"
 theme = "airspace-hugo"
+googleAnalytics = 'UA-107273888-2'
 
 
 [menu]
@@ -108,6 +109,3 @@ We know and respect this and work with you to let the software evolve.
     [[params.contact.social]]
       url = "https://github.com/thoughtnirvana"
       icon = 'fa-github-square'
-
-
-googleAnalytics = 'UA-107273888-2'
