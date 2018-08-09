@@ -98,7 +98,7 @@ We know and respect this and work with you to let the software evolve.
     [params.contact.box]
       title = "Stop by for a visit"
       address = "1st Floor, #811, 10th A Main, Indiranagar, Bangalore - 560038, India"
-      email = "enquiry@thoughtnirvana.com"
+      email = "ping@thoughtnirvana.com"
       phone = "+91 80 4111 9519"
     [params.contact.gmaps]
       title = "Let Google help you find us"
