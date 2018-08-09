@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "www.thoughtnirvana.com"
 languageCode = "en-us"
 title = "ThoughtNirvana - React, Angular, Python, Ruby, Java, .net core development"
 theme = "airspace-hugo"
@@ -22,23 +22,6 @@ theme = "airspace-hugo"
     weight = 5
     name = "Contact Us"
     url = "/contact"
-
-  [[menu.footer]]
-    weight = 1
-    name = "About us"
-    url = "/about"
-  [[menu.footer]]
-    weight = 2
-    name = "Our Ethos"
-    url = "/ethos"
-  [[menu.footer]]
-    weight = 3
-    name = "How it works"
-    url = "/how"
-  [[menu.footer]]
-    weight = 4
-    name = "Blog"
-    url = "/blog"
 
 # The site's parameters
 [params]
