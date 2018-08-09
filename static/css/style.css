@@ -42,6 +42,7 @@
 #how .how-item i {
   font-size: 60px;
   color: #4A4656;
+  vertical-align: middle;
 }
 #how .how-item h4 {
   padding-top: 20px;
