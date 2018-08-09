@@ -125,3 +125,6 @@ We know and respect this and work with you to let the software evolve.
     [[params.contact.social]]
       url = "https://github.com/thoughtnirvana"
       icon = 'fa-github-square'
+
+
+googleAnalytics = 'UA-107273888-2'
