@@ -1,4 +1,4 @@
 +++
-title = "Let's get in touch"
+title = "LET'S GET IN TOUCH"
 id = "contact"
 +++
