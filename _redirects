@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://thoughtnirvana.netlify.com/* https://www.thoughtnirvana.com/:splat 301!
