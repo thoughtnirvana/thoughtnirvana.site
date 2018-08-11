@@ -2,7 +2,6 @@ baseURL = "/"
 languageCode = "en-us"
 title = "ThoughtNirvana - React, Angular, Python, Ruby, Java, .net core development"
 theme = "airspace-hugo"
-googleAnalytics = 'UA-107273888-2'
 
 
 [menu]
@@ -34,6 +33,9 @@ googleAnalytics = 'UA-107273888-2'
   dateFormat = "6 January 2006"
 
   home = "Home"
+
+  googleAnalytics = 'UA-107273888-2'
+  
 
   [params.slider]
     enable = true
