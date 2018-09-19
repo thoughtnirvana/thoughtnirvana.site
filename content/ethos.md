@@ -1,4 +1,4 @@
 +++
-title = "THE DNA OF THOUGHTNIRVANA"
+title = "THE NIRVANA MANTRA"
 id = "ethos"
 +++

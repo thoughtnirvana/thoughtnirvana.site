@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "ThoughtNirvana - React, Angular, Python, Ruby, Java, .net core development"
+title = "React, Angular, Python, Ruby, Java, .net core development"
 theme = "airspace-hugo"
 
 
